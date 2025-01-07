@@ -1,7 +1,7 @@
 import MealsGrid from "@/components/meals/meals-grid";
 import Link from "next/link";
 import classes from "./page.module.css";
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import { getMeals } from "@/lib/meals";
 
 export const metadata = {
